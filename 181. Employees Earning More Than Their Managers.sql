@@ -1,5 +1,5 @@
 select 
-    e2.name as Employee 
+    e2.name as Employee  
 from 
     employee e1
 join
