@@ -1,5 +1,5 @@
-SELECT(
-    Select DISTINCT salary 
+ SELECT(
+    Select DISTINCT  salary 
     FROM Employee
     ORDER BY salary DESC
     LIMIT 1 OFFSET 1
