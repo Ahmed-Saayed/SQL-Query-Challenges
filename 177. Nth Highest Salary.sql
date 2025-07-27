@@ -5,7 +5,7 @@ BEGIN
   RETURN (
       # Write your MySQL query statement below.
     SELECT (
-        SELECT DISTINCT salary
+        SELECT DISTINCT salary 
         FROM Employee
         order by salary desc
         LIMIT 1 OFFSET M
