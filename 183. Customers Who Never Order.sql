@@ -5,4 +5,4 @@ FROM
 LEFT JOIN 
     Orders ON Customers.id = Orders.Customerid
 WHERE
-    Orders.Customerid is  NULL
+    Orders.Customerid is NULL
