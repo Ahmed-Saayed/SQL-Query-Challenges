@@ -1,6 +1,6 @@
 SELECT 
 Department.name AS Department , 
-Employee.name AS Employee ,
+Employee.name AS Employee,
 Employee.salary AS  Salary
 
 FROM Department
