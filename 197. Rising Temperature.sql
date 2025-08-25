@@ -1,5 +1,5 @@
 select 
-    a.id
+    a.id 
 from
     weather a ,weather b
 where
