@@ -1,5 +1,5 @@
 SELECT 
-    Customers.name AS Customers
+    Customers.name AS  Customers
 FROM 
     Customers
 LEFT JOIN 
