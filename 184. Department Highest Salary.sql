@@ -5,7 +5,7 @@ Employee.salary AS Salary
 
 FROM Department
 
-JOIN Employee ON Department.id = Employee.departmentId
+JOIN Employee ON Department.id =  Employee.departmentId
 
 WHERE(Department.id, Employee.salary) IN (
     SELECT departmentId, MAX(salary) 
