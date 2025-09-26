@@ -1,5 +1,5 @@
 select 
-    a.name 
+     a.name 
 from
     employee a
 join 
