@@ -1,5 +1,5 @@
 SELECT 
-Department.name AS  Department, 
+Department.name AS Department, 
 Employee.name AS Employee,
 Employee.salary AS Salary
 
