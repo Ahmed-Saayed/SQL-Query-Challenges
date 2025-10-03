@@ -1,5 +1,5 @@
 select
-    sal1.name
+     sal1.name
 from
     salesperson sal1
 where sal1.name != all(
