@@ -1,7 +1,7 @@
 select 
       a.name 
 from
-    employee  a
+    employee   a
 join 
     employee b
 on 
