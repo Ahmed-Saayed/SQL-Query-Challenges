@@ -1,5 +1,5 @@
 select  
-    op1.name,  op2.bonus
+    op1.name, op2.bonus
 from
     employee op1
 left join
