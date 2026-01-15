@@ -3,6 +3,6 @@ SELECT
 FROM 
     Customers
 LEFT JOIN 
-    Orders ON Customers.id = Orders.Customerid
+    Orders ON Customers.id =  Orders.Customerid
 WHERE
     Orders.Customerid is NULL
